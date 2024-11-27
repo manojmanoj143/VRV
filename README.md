@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Role-Based Access Control (RBAC) UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project implements a **Role-Based Access Control (RBAC)** system for managing users, roles, and permissions through a clean, user-friendly admin dashboard. It allows administrators to manage users, define roles, assign permissions, and ensure secure and efficient access control across the application.
 
-In the project directory, you can run:
+The system has three main components:
+- **User Management**: Add, edit, delete, and manage users with roles and statuses.
+- **Role Management**: Define and edit roles with associated permissions (e.g., Read, Write, Delete).
+- **Dynamic Permissions**: Assign and modify permissions for each role dynamically.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Management**:
+  - Add new users.
+  - Edit and update user details.
+  - Delete users.
+  - Assign and manage user roles (Active/Inactive status).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Role Management**:
+  - Create new roles.
+  - Edit and delete existing roles.
+  - Assign specific permissions (Read, Write, Delete, etc.) to roles.
 
-### `npm test`
+- **Dynamic Permissions**:
+  - Display permissions in a user-friendly way for easy assignment.
+  - Modify permissions per role.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Responsive Design**:
+  - The dashboard is fully responsive, ensuring a smooth user experience on various screen sizes.
 
-### `npm run build`
+- **Mock API Simulation** (Optional):
+  - Simulates API calls to interact with user and role data, providing realistic CRUD operations and server responses.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Node.js**: Ensure that Node.js and npm (Node Package Manager) are installed on your system.
 
-### `npm run eject`
+### Steps to Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/manojmanoj143/rbac-ui.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage
+Once the application is running, the admin dashboard will be available at http://localhost:3000. You can perform the following actions:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+User Management:
 
-## Learn More
+Add users, edit their details, and assign roles.
+View and modify the status of users (Active/Inactive).
+Role Management:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Create new roles and edit existing roles.
+Assign permissions (Read, Write, Delete) to roles.
+Dynamic Permissions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Modify permissions assigned to each role.
+Manage role-permission associations dynamically.
 
-### Code Splitting
+Contributing
+Contributions are welcome! If you want to enhance or fix any features in this project, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature-name).
+Implement your changes and commit them (git commit -m 'Add new feature').
+Push your changes to your fork (git push origin feature-name).
+Open a Pull Request to the main repository.
+Please ensure that your code adheres to the existing code style and includes tests where applicable.
+Contact
+Your Name
+Email: manojmanoj88680@gmail.com.com
+GitHub: https://github.com/manojmanoj143
